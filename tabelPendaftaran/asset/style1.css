@@ -1,0 +1,142 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffe6f0; /* Light pink background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #ff66a3; /* Darker pink for headings */
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ff66a3; /* Main pink color for buttons */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffe6f0; /* Light pink background for table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ff99cc;
+    text-align: center;
+}
+
+th {
+    background-color: #ff99cc; /* Light pink for table header */
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff0f5; /* Very light pink for table cells */
+    color: #333;
+}
+
+.btn-edit {
+    background-color: #ffb3d9; /* Soft pink for edit buttons */
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.btn-delete {
+    background-color: #ff4d94; /* Bright pink for delete buttons */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+form {
+    background-color: #ffe6f0; /* Matching light pink background */
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    color: #ff66a3; /* Matching pink color */
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff0f5; /* Very light pink */
+    color: #333;
+}
+
+form input[type="submit"],
+form button {
+    background-color: #ff66a3; /* Main pink color for submit button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+    background-color: #ff4d94; /* Darker pink on hover */
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form .form-group.inline {
+    display: flex;
+    gap: 10px;
+}
+
+form .form-group.inline label,
+form .form-group.inline input {
+    width: auto;
+    flex: 1;
+}
+
+
